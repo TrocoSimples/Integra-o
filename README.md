@@ -2,7 +2,7 @@
 Este projeto tempo por objetivo demonstrar como realizar as integrações com a API Troco Simples.
 
 ##Entidades
-A sessão abaixo apresenta as disferentes entidades encontradas no sistema.
+A sessão abaixo apresenta as diferentes entidades encontradas no sistema.
 
 ###Usuário
 Os Usuário são todas as pessoas físicas cadastradas no sistema.
@@ -19,7 +19,7 @@ A API se utiliza dos códigos de retorno do protocolo http para informar o resul
  Obs: Nem todas as funções retornam dados, no caso de sucesso.
  
  404: Não encontrado
- Para funções que retornam listas como "extrato" e "solicitações de pagamento", será retornado 404 para indicar que nenhuma informações foi encontrada.
+ Para funções que retornam listas como "extrato" e "solicitações de pagamento", será retornado 404 para indicar que nenhuma informação foi encontrada.
 
 400: Erro
 Indica que a função não foi executada com sucesso.
@@ -42,7 +42,7 @@ Retorna o saldo atual da empresa.
 Retorna a lista com as operações realizadas pela empresa.
 
 ###Obter solicitações de pagamento
-Retorna a lista com as solicitações de pagamento realizdas pela empresa.
+Retorna a lista com as solicitações de pagamento realizadas pela empresa.
 
 ###Entregar troco
 Realiza uma entrega de troca para o CPF informado.
@@ -53,4 +53,4 @@ Realiza uma solicitação de pagamento para o CPF informado. Este CPF deve ter u
 Esta solicitação só irá aparecer no extrato mediante a confirmação por parte do usuário.
 
 ###Fechamento
-Retorna o fechamento diario, mensal ou semanal em relação a data informada
+Retorna o fechamento diário, mensal ou semanal em relação a data informada
