@@ -51,3 +51,6 @@ Este CPF pode não ter usuário, nesse caso quando o usuário se cadastrar o val
 ###Solicitar pagamento
 Realiza uma solicitação de pagamento para o CPF informado. Este CPF deve ter um usuário cadastrado no sistema.
 Esta solicitação só irá aparecer no extrato mediante a confirmação por parte do usuário.
+
+###Fechamento
+Retorna o fechamento diario, mensal ou semanal em relação a data informada
