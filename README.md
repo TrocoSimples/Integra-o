@@ -54,3 +54,18 @@ Esta solicitação só irá aparecer no extrato mediante a confirmação por par
 
 ###Fechamento
 Retorna o fechamento diário, mensal ou semanal em relação a data informada
+
+##Ambiente para testes
+Url: http://homolog-trocosimples-com-br.umbler.net/api/
+
+###Usuário Teste
+teste@trocosimples.com.br
+
+###Senha
+123456
+
+###CPF usuário teste
+72539019404
+
+###CNPJ Empresa Teste
+23513265000199
