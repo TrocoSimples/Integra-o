@@ -56,7 +56,7 @@ Esta solicitação só irá aparecer no extrato mediante a confirmação por par
 Retorna o fechamento diário, mensal ou semanal em relação a data informada
 
 ##Ambiente para testes
-Url: http://homolog-trocosimples-com-br.umbler.net/api/
+Url: http://teste.trocosimples.com.br/api/
 
 ###Usuário Teste
 teste@trocosimples.com.br
