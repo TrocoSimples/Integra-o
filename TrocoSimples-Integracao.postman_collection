@@ -1,0 +1,147 @@
+{
+	"id": "04c99c65-0d62-d55d-f19a-2ba0e7b5e78d",
+	"name": "Troco Simples - Integração",
+	"description": "",
+	"order": [
+		"dee06192-1e49-4d79-e2fd-b5e78eba3d84",
+		"edeb893f-f688-385d-5d5a-a8b960449978",
+		"9b91bf90-91c5-7f87-3c2c-0e4d7b528f11",
+		"7be7e507-6653-35ea-acc2-2e35ef54efbb"
+	],
+	"folders": [],
+	"timestamp": 1478456286112,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "7be7e507-6653-35ea-acc2-2e35ef54efbb",
+			"headers": "Authorization: Bearer TFsGCMpnV-W7DjHwoPN6rvHzULkbcG6csvwRSGkpZGwAe5Kj2RZFLvpOv5ywZ86gO1ePUiBDGpNPyIwba0BDwH181A7e3JyBB9NQd6W70W3AIXQ2P3FTTyq6l4KPqLmVGbVYECKJg1RHaZ1Fpb_OrxiLacopZF0v9OEAmDI9VAVoWGBf_dqXBrXjdsfZxsoA-i4zCJ62XfLZIAmh1VYnD_tuCBdBjwPiuru6BdlBcsTJjpwIYmkqOnRfG45UNIrZP6dCb9UfajbdG5vlbwg-jXP3rEZeFpQUXtI81GGNczPRqzCovoQTgWZeGnWKgLtMmwFSZeZyRbl0XR44otLfnp-MzSXjyFJr6oFKyjmb6E0\nContent-Type: application/x-www-form-urlencoded\n",
+			"url": "http://teste.trocosimples.com.br/api/enterprise/3/delivery",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "04c99c65-0d62-d55d-f19a-2ba0e7b5e78d",
+			"data": [
+				{
+					"key": "cpfDestination",
+					"value": "05886239979",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amount",
+					"value": "0.01",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Entrega Troco",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478457147659,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9b91bf90-91c5-7f87-3c2c-0e4d7b528f11",
+			"headers": "Authorization: Bearer TFsGCMpnV-W7DjHwoPN6rvHzULkbcG6csvwRSGkpZGwAe5Kj2RZFLvpOv5ywZ86gO1ePUiBDGpNPyIwba0BDwH181A7e3JyBB9NQd6W70W3AIXQ2P3FTTyq6l4KPqLmVGbVYECKJg1RHaZ1Fpb_OrxiLacopZF0v9OEAmDI9VAVoWGBf_dqXBrXjdsfZxsoA-i4zCJ62XfLZIAmh1VYnD_tuCBdBjwPiuru6BdlBcsTJjpwIYmkqOnRfG45UNIrZP6dCb9UfajbdG5vlbwg-jXP3rEZeFpQUXtI81GGNczPRqzCovoQTgWZeGnWKgLtMmwFSZeZyRbl0XR44otLfnp-MzSXjyFJr6oFKyjmb6E0\n",
+			"url": "http://teste.trocosimples.com.br/api/enterprise/3/account/balance",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "04c99c65-0d62-d55d-f19a-2ba0e7b5e78d",
+			"data": null,
+			"dataMode": "params",
+			"name": "Consulta Saldo por Empresa",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478457005333,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "dee06192-1e49-4d79-e2fd-b5e78eba3d84",
+			"headers": "",
+			"url": "http://teste.trocosimples.com.br/api/token",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "04c99c65-0d62-d55d-f19a-2ba0e7b5e78d",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "teste@trocosimples.com.br",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1478456317575,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "edeb893f-f688-385d-5d5a-a8b960449978",
+			"headers": "Authorization: Bearer TFsGCMpnV-W7DjHwoPN6rvHzULkbcG6csvwRSGkpZGwAe5Kj2RZFLvpOv5ywZ86gO1ePUiBDGpNPyIwba0BDwH181A7e3JyBB9NQd6W70W3AIXQ2P3FTTyq6l4KPqLmVGbVYECKJg1RHaZ1Fpb_OrxiLacopZF0v9OEAmDI9VAVoWGBf_dqXBrXjdsfZxsoA-i4zCJ62XfLZIAmh1VYnD_tuCBdBjwPiuru6BdlBcsTJjpwIYmkqOnRfG45UNIrZP6dCb9UfajbdG5vlbwg-jXP3rEZeFpQUXtI81GGNczPRqzCovoQTgWZeGnWKgLtMmwFSZeZyRbl0XR44otLfnp-MzSXjyFJr6oFKyjmb6E0\n",
+			"url": "http://teste.trocosimples.com.br/api/user/enterprises",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "teste@trocosimples.com.br",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1478456728647,
+			"name": "Consulta Empresas por Usuario",
+			"description": "",
+			"collectionId": "04c99c65-0d62-d55d-f19a-2ba0e7b5e78d",
+			"responses": []
+		}
+	]
+}
